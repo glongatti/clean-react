@@ -1,4 +1,4 @@
-import { HttpPostClient } from '@/domain/data/protocols/http/http-post-client'
+import { HttpPostClient } from '@/data/protocols/http/http-post-client'
 import { AuthenticationParams } from '@/domain/usecases/authentication'
 import { HttpStatusCode } from '../../protocols/http/http-response'
 import { InvalidCredentialsError } from '@/domain/errors/invalid-credentials-error'
